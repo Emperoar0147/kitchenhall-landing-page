@@ -1,4 +1,11 @@
 import React, { useState } from 'react';
+import './DropdownMenu.css'; // Import the CSS file
+import homeIcon from './home.jpeg';
+import aboutIcon from './abtu.png';
+import servicesIcon from './sv.png';
+import contactIcon from './cnt.png';
+import loginIcon from './lg.png';
+import signupIcon from './signup.png';
 
 const DropdownMenu = ({ openLoginModal, openSignupModal }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,12 +21,24 @@ const DropdownMenu = ({ openLoginModal, openSignupModal }) => {
       </button>
       {isOpen && (
         <div className="dropdown-menu">
-          <a href="#home" className="dropdown-item">Home</a>
-          <a href="#about" className="dropdown-item">About</a>
-          <a href="#services" className="dropdown-item">Services</a>
-          <a href="#contact" className="dropdown-item">Contact</a>
-          <button className="dropdown-item" onClick={openLoginModal}>Login</button>
-          <button className="dropdown-item" onClick={openSignupModal}>Sign Up</button>
+          <a href="#home" className="dropdown-item">
+            <img src={homeIcon} alt="Home Icon" /> Home
+          </a>
+          <a href="#about" className="dropdown-item">
+            <img src={aboutIcon} alt="About Icon" /> About
+          </a>
+          <a href="#services" className="dropdown-item">
+            <img src={servicesIcon} alt="Services Icon" /> Services
+          </a>
+          <a href="#contact" className="dropdown-item">
+            <img src={contactIcon} alt="Contact Icon" /> Contact
+          </a>
+          <button className="dropdown-item" onClick={openLoginModal}>
+            <img src={loginIcon} alt="Login Icon" /> Login
+          </button>
+          <button className="dropdown-item" onClick={openSignupModal}>
+            <img src={signupIcon} alt="Signup Icon" /> Sign Up
+          </button>
         </div>
       )}
     </div>
@@ -27,6 +46,3 @@ const DropdownMenu = ({ openLoginModal, openSignupModal }) => {
 };
 
 export default DropdownMenu;
-
-
-

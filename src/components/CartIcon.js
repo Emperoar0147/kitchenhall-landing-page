@@ -1,12 +1,11 @@
-// Example of a cart icon component (CartIcon.js)
 import React from 'react';
-import './CartIcon.css'; // Ensure the CSS file is correctly linked
+import './CartIcon.css'; // Create this CSS file for styling
 
-const CartIcon = ({ count }) => {
+const CartIcon = () => {
   return (
     <div className="cart-icon">
-      <img src="/path-to-cart-icon.svg" alt="Cart" />
-      {count > 0 && <span className="cart-count">{count}</span>}
+      <img src="path/to/cart-icon.png" alt="Cart" />
+      <span className="cart-count">0</span> {/* Replace 0 with dynamic cart count if needed */}
     </div>
   );
 };

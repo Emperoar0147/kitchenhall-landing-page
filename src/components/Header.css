@@ -3,21 +3,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #fff;
+  padding: 0 20px;
+  background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  top: 0;
+  height: 13%;
+  top: 4px;
   left: 0;
   z-index: 1000;
 }
 
 .logo {
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
   font-weight: bold;
   text-align: center;
   flex-grow: 1;
+}
+
+.logo-text {
+  font-size: 2.5rem; /* Adjust the size of the text as needed */
+  font-family: trattatello; /* Change this to your desired font family */
+  font-weight: bold; /* Optional: change to 'normal', 'bold', etc. */
+  margin: 10px;  /* Space between text and logo */
+  text-align: center; /* Center align text inside the element */
+}
+
+.logo img {
+  max-height: 90px; /* Adjust as needed */
+  max-width: 350px; /* Adjust as needed */
+  object-fit: contain;
 }
 
 .header-left, .header-right {
@@ -78,7 +95,9 @@
 .cart-icon {
   display: flex;
   align-items: center;
-  position: relative;
+  position: absolute;
+  top: 10px;
+  right: 20px;
   font-size: 2rem;
   cursor: pointer;
   color: black;

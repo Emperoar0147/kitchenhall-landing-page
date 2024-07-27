@@ -3,8 +3,9 @@ import { FaCartPlus } from 'react-icons/fa';
 import './Header.css';
 import Login from './Login';
 import Signup from './Signup';
-import CartIcon from './CartIcon'; // Ensure the path is correct
+import './CartIcon.css'; // Create this CSS file for styling
 import DropdownMenu from './DropdownMenu';
+import logo from '../components/kitchenhall.png'; // Adjust the path as needed
 
 const Header = () => {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
@@ -21,7 +22,11 @@ const Header = () => {
       <div className="header-left">
         <DropdownMenu openLoginModal={openLoginModal} openSignupModal={openSignupModal} />
       </div>
-      <div className="logo">KitchenHall</div>
+      <div className="logo">
+        <span className="logo-text">Kitchen</span>
+        <img src={logo} alt="KitchenHall Logo" className="logo-img" />
+        <span className="logo-text">Hall</span>
+      </div>
       <div className="header-right">
         <div className="cart-icon" style={{ fontSize: '2rem', color: 'black' }}>
           <FaCartPlus />
@@ -35,4 +40,3 @@ const Header = () => {
 };
 
 export default Header;
-
