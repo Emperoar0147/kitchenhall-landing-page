@@ -1,0 +1,28 @@
+/* src/components/Footer.css */
+.Footer {
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  position: relative; /* Changed from fixed to relative */
+  bottom: 0;
+  width: 100%;
+  /* Ensure it stays at the bottom of the content */
+}
+
+html, body {
+  height: 100%; /* Make sure the body takes up the full height */
+  margin: 0; /* Remove default margin */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; /* Take up remaining space */
+}
+
+
+  

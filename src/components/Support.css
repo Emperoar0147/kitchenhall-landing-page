@@ -1,0 +1,33 @@
+.support {
+    padding: 20px;
+  }
+  
+  .chat-widget {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form button {
+    margin-top: 10px;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+  }
+  
+  .phone-support {
+    margin-bottom: 20px;
+  }
+  

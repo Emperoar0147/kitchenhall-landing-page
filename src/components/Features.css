@@ -1,0 +1,46 @@
+#features {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .feature {
+    flex: 1;
+    max-width: 300px; /* You can adjust this value as needed */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 200px;
+    max-width: 100%;
+    height: 100px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin-bottom: 1rem;
+    border-radius: 16px; /* Optionally, add rounded corners to match the container */
+  }
+  
+  .feature h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
