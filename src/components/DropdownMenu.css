@@ -5,7 +5,7 @@
 }
 
 .dropdown-toggle {
-  background-color: #333;
+  background-color: green;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -38,7 +38,7 @@
   border: none;
   background: none;
   cursor: pointer;
-  color: #333;
+  color: green;
   text-decoration: none;
   font-family: Arial, sans-serif; /* Font style */
   font-size: 14px; /* Font size */
@@ -59,15 +59,4 @@
 
 .dropdown-item:last-child {
   border-bottom: none; /* Remove border from the last item */
-}
-
-.dropdown-item button {
-  width: 100%; /* Ensure buttons take full width of their container */
-  background: none;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  text-align: left; /* Align text to the left */
-  font-family: Arial, sans-serif; /* Font style */
-  font-size: 14px; /* Font size */
 }

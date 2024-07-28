@@ -1,37 +1,27 @@
 /* src/components/CartIcon.css */
 .cart-icon {
-  position: relative;
   display: flex;
   align-items: center;
+  font-size: 2rem;
   cursor: pointer;
+  color: black;
+  position: relative;
 }
 
-.cart-icon img {
-  width: 30px;
-  height: 30px;
-}
-
-.cart-icon .cart-count {
+.cart-count {
   position: absolute;
   top: -5px;
   right: -10px;
-  background-color: red;
+  background: red;
   color: white;
-  border-radius: 30%; /* Adjusted to make it a circular badge */
+  border-radius: 30%;
   padding: 0.2rem 0.5rem;
   font-size: 0.8rem;
 }
 
-@media (max-width: 768px) {
-  .cart-icon img {
-    width: 25px;
-    height: 25px;
-  }
-
-  .cart-icon .cart-count {
-    top: -3px;
-    right: -8px;
-    padding: 0.1rem 0.3rem;
-    font-size: 0.7rem;
-  }
+.cart-icon .cart-count {
+  top: -3px;
+  right: -8px;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.7rem;
 }
