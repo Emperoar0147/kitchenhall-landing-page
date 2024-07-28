@@ -3,13 +3,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 15px; /* Reduced padding for better fit on smaller screens */
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  height: 13%;
-  top: 4px;
+  height: 10%; /* Reduced height for a more compact header */
+  top: 0; /* Removed the top offset */
   left: 0;
   z-index: 1000;
 }
@@ -19,22 +19,22 @@
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  font-size: 1.5rem;
+  font-size: 1.2rem; /* Reduced font size for a more compact header */
   font-weight: bold;
   text-align: center;
 }
 
 .logo-text {
-  font-size: 2rem; /* Adjust the size of the text as needed */
+  font-size: 1.5rem; /* Smaller text size for a more balanced look */
   font-family: trattatello; /* Change this to your desired font family */
-  font-weight: bold; /* Optional: change to 'normal', 'bold', etc. */
-  margin: 7px;  /* Space between text and logo */
-  text-align: center; /* Center align text inside the element */
+  font-weight: bold;
+  margin: 5px;  /* Reduced space between text and logo */
+  text-align: center;
 }
 
 .logo img {
-  max-height: 90px; /* Adjust as needed */
-  max-width: 350px; /* Adjust as needed */
+  max-height: 50px; /* Further reduced maximum height */
+  max-width: 120px; /* Further reduced maximum width */
   object-fit: contain;
 }
 
@@ -45,27 +45,27 @@
 
 .header-right {
   position: absolute;
-  right: 40px;
-  top: 10px;
+  right: 10px; /* Further reduced right positioning */
+  top: 5px; /* Further reduced top positioning */
 }
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .logo-text {
-    font-size: 1.5rem; /* Adjust text size for mobile devices */
+    font-size: 1.2rem; /* Smaller text size for mobile devices */
   }
 
   .logo img {
-    max-height: 60px; /* Smaller logo image height for mobile */
-    max-width: 150px; /* Smaller logo image width for mobile */
+    max-height: 40px; /* Even smaller logo image height for mobile */
+    max-width: 100px; /* Even smaller logo image width for mobile */
   }
 
   .header-right {
-    right: 20px; /* Adjust right position for mobile */
-    top: 5px; /* Adjust top position for mobile */
+    right: 10px; /* Consistent right position for mobile */
+    top: 3px; /* Further reduced top position for mobile */
   }
 
   .header-left, .header-right {
-    font-size: 0.8rem; /* Reduce font size of icons */
+    font-size: 0.7rem; /* Further reduced font size of icons */
   }
 }
