@@ -49,8 +49,23 @@
   top: 10px;
 }
 
+/* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .logo-text {
-    font-size: 2rem; /* Smaller text size for mobile */
+    font-size: 1.5rem; /* Adjust text size for mobile devices */
+  }
+
+  .logo img {
+    max-height: 60px; /* Smaller logo image height for mobile */
+    max-width: 150px; /* Smaller logo image width for mobile */
+  }
+
+  .header-right {
+    right: 20px; /* Adjust right position for mobile */
+    top: 5px; /* Adjust top position for mobile */
+  }
+
+  .header-left, .header-right {
+    font-size: 0.8rem; /* Reduce font size of icons */
   }
 }
