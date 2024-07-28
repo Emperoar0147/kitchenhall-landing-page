@@ -44,7 +44,7 @@
 }
 
 .header-right {
-  position: relative;
+  position: absolute;
   right: 40px;
   top: 10px;
 }
