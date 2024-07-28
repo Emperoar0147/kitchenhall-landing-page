@@ -58,10 +58,10 @@
   button {
     margin-top: 20px;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: green;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
   }
   
