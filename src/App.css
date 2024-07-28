@@ -27,6 +27,18 @@ footer {
 
 .App {
   text-align: center;
+  background-image: url ('../components/hero1.jpeg'); /* Path to your image */
+  background-size: cover; /* Make sure the image covers the whole container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh; /* Ensure the height covers the entire viewport */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; /* Allow main content to take up available space */
 }
 
 .App-logo {
@@ -51,7 +63,14 @@ footer {
   color: white;
 }
 
-
+.background {
+  background-image: url '../components/h'); /* Path to your image */
+  background-size: cover; /* Make sure the image covers the whole container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 100vh; /* Set the height to cover the entire viewport */
+  width: 100%;
+}
 
 .App-link {
   color: #61dafb;
