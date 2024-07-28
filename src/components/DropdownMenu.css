@@ -1,73 +1,73 @@
+/* src/components/DropdownMenu.css */
 .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-toggle {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 16px; /* Font size */
-  }
-  
-  .dropdown-menu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    padding: 0;
-    margin: 0;
-    border-radius: 4px; /* Rounded corners for the dropdown */
-    width: 220px; /* Adjust width as needed */
-  }
-  
-  .dropdown-item {
-    padding: 10px 20px;
-    display: flex;
-    align-items: center; /* Center items vertically */
-    width: 100%;
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: #333;
-    text-decoration: none;
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 14px; /* Font size */
-    border-bottom: 1px solid #ddd; /* Add a border between items */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-  }
-  
-  .dropdown-item:hover {
-    background-color: #f1f1f1;
-  }
-  
-  .dropdown-item img {
-    width: 24px; /* Uniform width */
-    height: 24px; /* Uniform height */
-    margin-right: 15px; /* Increase space between icon and text */
-    margin-left: -5px; /* Move image slightly to the left if needed */
-  }
-  
-  .dropdown-item:last-child {
-    border-bottom: none; /* Remove border from the last item */
-  }
-  
-  .dropdown-item button {
-    width: 100%; /* Ensure buttons take full width of their container */
-    background: none;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    text-align: left; /* Align text to the left */
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 14px; /* Font size */
-  }
-  
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 16px; /* Font size */
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px; /* Rounded corners for the dropdown */
+  width: 220px; /* Adjust width as needed */
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 14px; /* Font size */
+  border-bottom: 1px solid #ddd; /* Add a border between items */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-item img {
+  width: 24px; /* Uniform width */
+  height: 24px; /* Uniform height */
+  margin-right: 15px; /* Increase space between icon and text */
+  margin-left: -5px; /* Move image slightly to the left if needed */
+}
+
+.dropdown-item:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+.dropdown-item button {
+  width: 100%; /* Ensure buttons take full width of their container */
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: left; /* Align text to the left */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 14px; /* Font size */
+}

@@ -22,7 +22,7 @@ const Header = () => {
       <div className="header-left">
         <DropdownMenu openLoginModal={openLoginModal} openSignupModal={openSignupModal} />
       </div>
-      <div className="logo">
+      <div className="logo-container">
         <span className="logo-text">Kitchen</span>
         <img src={logo} alt="KitchenHall Logo" className="logo-img" />
         <span className="logo-text">Hall</span>

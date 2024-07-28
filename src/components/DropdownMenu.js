@@ -22,22 +22,22 @@ const DropdownMenu = ({ openLoginModal, openSignupModal }) => {
       {isOpen && (
         <div className="dropdown-menu">
           <a href="#home" className="dropdown-item">
-            <img src={homeIcon} alt="Home Icon" /> Home
+            <img src={homeIcon} alt="Home Icon" className="dropdown-icon" /> Home
           </a>
           <a href="#about" className="dropdown-item">
-            <img src={aboutIcon} alt="About Icon" /> About
+            <img src={aboutIcon} alt="About Icon" className="dropdown-icon" /> About
           </a>
           <a href="#services" className="dropdown-item">
-            <img src={servicesIcon} alt="Services Icon" /> Services
+            <img src={servicesIcon} alt="Services Icon" className="dropdown-icon" /> Services
           </a>
           <a href="#contact" className="dropdown-item">
-            <img src={contactIcon} alt="Contact Icon" /> Contact
+            <img src={contactIcon} alt="Contact Icon" className="dropdown-icon" /> Contact
           </a>
           <button className="dropdown-item" onClick={openLoginModal}>
-            <img src={loginIcon} alt="Login Icon" /> Login
+            <img src={loginIcon} alt="Login Icon" className="dropdown-icon" /> Login
           </button>
           <button className="dropdown-item" onClick={openSignupModal}>
-            <img src={signupIcon} alt="Signup Icon" /> Sign Up
+            <img src={signupIcon} alt="Signup Icon" className="dropdown-icon" /> Sign Up
           </button>
         </div>
       )}
