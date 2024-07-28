@@ -7,7 +7,7 @@
 .dropdown-toggle {
   background-color: green;
   color: white;
-  padding: 10px 20px;
+  padding: 7px 10px;
   border: none;
   cursor: pointer;
   font-family: Arial, sans-serif; /* Font style */
@@ -41,7 +41,7 @@
   color: green;
   text-decoration: none;
   font-family: Arial, sans-serif; /* Font style */
-  font-size: 14px; /* Font size */
+  font-size: 12px; /* Font size */
   border-bottom: 1px solid #ddd; /* Add a border between items */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
@@ -54,7 +54,7 @@
   width: 24px; /* Uniform width */
   height: 24px; /* Uniform height */
   margin-right: 15px; /* Increase space between icon and text */
-  margin-left: -5px; /* Move image slightly to the left if needed */
+  margin-left: 5px; /* Move image slightly to the left if needed */
 }
 
 .dropdown-item:last-child {
